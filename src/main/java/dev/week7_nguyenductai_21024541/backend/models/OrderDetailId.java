@@ -1,5 +1,11 @@
 package dev.week7_nguyenductai_21024541.backend.models;
 
+import jakarta.persistence.Embeddable;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+
+import java.io.Serializable;
+
 @Embeddable
 public class OrderDetailId implements Serializable {
 
