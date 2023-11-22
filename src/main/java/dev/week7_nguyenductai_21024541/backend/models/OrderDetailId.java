@@ -1,7 +1,5 @@
 package dev.week7_nguyenductai_21024541.backend.models;
 
-import jakarta.persistence.Embeddable;
-
 @Embeddable
 public class OrderDetailId implements Serializable {
 
