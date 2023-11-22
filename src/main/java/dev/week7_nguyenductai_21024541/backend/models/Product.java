@@ -1,5 +1,6 @@
 package dev.week7_nguyenductai_21024541.backend.models;
 
+import dev.week7_nguyenductai_21024541.backend.enums.ProductStatus;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
