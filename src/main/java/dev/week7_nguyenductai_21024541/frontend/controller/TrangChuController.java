@@ -9,6 +9,6 @@ public class TrangChuController {
     }
     @GetMapping("/admin")
     public String directToAdminManagement() {
-        return "admin/admin-homepage";
+        return "admin/homepage";
     }
 }
